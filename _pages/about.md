@@ -9,8 +9,8 @@ profile:
   image: avator.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>M.Phil. Student in CUHK-SZ</p>
-    <p>Shenzhen, Guangdong, China</p>
+    <p>(+86)175-6915-8031</p>
+    <p>Shenzhen, China</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
