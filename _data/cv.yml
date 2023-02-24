@@ -2,30 +2,36 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Chenyu Zhou (周宸宇)
     - name: Date of Birth
-      value: 14th March 1879
+      value: 27th June 2000
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MPhil, Computer and Information Engineering
+      institution: The Chinese University of Hong Kong, Shenzhen, China
+      year: 2022-2024
       description:
-        - Description 1.
+        - 'GPA: 3.65'
         - Description 2.
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: BMS, Information Management and Information System
+      institution: China University of Petroleum, Beijing, China
+      year: 2017-2021
       description:
-        - Description 1.
+        - 'GPA: 3.77 ; Rank: 2/67'
+        - Description 2.
+    - title: BMS, Information Management and Information System
+      institution: China University of Petroleum, Beijing, China
+      year: 2017-2021
+      description:
+        - 'GPA: 3.77 ; Rank: 2/67'
         - Description 2.
 
 - title: Experience

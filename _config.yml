@@ -82,7 +82,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
+blogger_url: https://kesisour.work # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
@@ -116,7 +116,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Chenyu's blog # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: false # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
