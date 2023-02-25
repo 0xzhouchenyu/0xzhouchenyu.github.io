@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 
 Hello, This is Chenyu (周宸宇 in Chinese) !
 
-I am a M.Phil. student at the [Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), majoring in Computer and Information Engineering. I am working as a research assistant supervised by [Prof.Wei Cai](https://mypage.cuhk.edu.cn/academics/caiwei/index.html) in the [Human-Crypto Society Laboratory](https://hcslab.cuhk.edu.cn/). I am working in the lab on exciting research related to decentralized finance(DeFi) and Web3.
+I am a M.Phil. student at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), majoring in Computer and Information Engineering. I am working as a research assistant supervised by [Prof.Wei Cai](https://mypage.cuhk.edu.cn/academics/caiwei/index.html) in the [Human-Crypto Society Laboratory](https://hcslab.cuhk.edu.cn/). I am working in the lab on exciting research related to decentralized finance(DeFi) and Web3.
 
 I am deeply passionate about the intersection of technology and finance, and firmly believe that technology-driven finance will revolutionize the financial industry. Specifically, my research interests center on the application of blockchain, AI, and machine learning in finance.
 
