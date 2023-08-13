@@ -14,9 +14,9 @@ profile:
     <p>Shenzhen, China</p>
 
 news: true  # includes a list of news items
-latest_posts: flase  # includes a list of the newest posts
-selected_papers: flase # includes a list of papers marked as "selected={true}"
-social: flase  # includes social icons at the bottom of the page
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
 Hi :wave: , This is Chenyu (周宸宇 in Chinese) !
