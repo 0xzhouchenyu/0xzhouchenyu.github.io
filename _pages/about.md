@@ -2,25 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Researcher, Quanter, Web3er, Coder, Gamer.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: avator.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>(+86)175-6915-8031</p>
+    <p>chenyuzhou1[AT]link.cuhk.edu.cn</p>
+    <p>Shenzhen, China</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+latest_posts: flase  # includes a list of the newest posts
+selected_papers: flase # includes a list of papers marked as "selected={true}"
+social: flase  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi :wave: , This is Chenyu (周宸宇 in Chinese) !
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a M.Phil. student at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), majoring in Computer and Information Engineering. I am working as a research assistant supervised by [Prof.Wei Cai](https://mypage.cuhk.edu.cn/academics/caiwei/index.html) in the [Human-Crypto Society Laboratory](https://hcslab.cuhk.edu.cn/). I am working in the lab on exciting research related to decentralized finance(DeFi) and Web3.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am deeply passionate about the intersection of technology and finance, and firmly believe that technology-driven finance will revolutionize the financial industry. Specifically, my research interests center on the application of blockchain, AI, and machine learning in finance.
+
+I possess strong programming skills and take pleasure in coding. I am a gold medalist in the Asian regional contest of the [International Collegiate Programming Contest](https://icpc.global/)(ICPC), the world's most prestigious collegiate programming contest. I am proficient in Python and C/C++ and have gained experience working with R, Matlab, Java, Golang, and JavaScript.
+
+I have a strong passion for quantitative investment. I have nearly two years of full-time or internship work experience before pursuing my graduate degree. My previous employers, which include [Ubiquant Investment](https://www.ubiquant.com/)(九坤投资), [Harvest Fund](https://www.jsfund.cn/)(嘉实基金), and [JZL Capital](https://www.jzlcapital.xyz/)(君理资本), have all acknowledged my exceptional abilities in this field.
+
+I am a Web3er, and I believe that decentralized autonomous organizations (DAOs) built on Web3 have immense potential to enhance productivity. As a result, I am actively engaged with the [SeeDAO](https://seedao.xyz/) I&R guild. I have great confidence in SeeDAO's growth and am excited to witness its progress firsthand.
+
+I am a technical partner of [DIGICARBON](https://www.digicarbon.cn/)(中财数碳), and my main responsibility is to develop machine learning algorithms and technical frameworks. In fact, I am also interested in topics related to technology-enabled carbon neutrality. I think this topic is the best representation of "Tech For Good".
+
+I was obsessed with business competitions for a long time. I led our team to the 7th place in China in the [Global Management Challenge](https://globalmanagementchallenge.com/) in 2021.
