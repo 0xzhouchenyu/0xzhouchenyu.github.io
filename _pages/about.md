@@ -23,11 +23,14 @@ Hi :wave: , This is Chenyu (周宸宇 in Chinese)!
 
 I am an M.Phil. student at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), majoring in Computer and Information Engineering. I am working as a research assistant supervised by [Prof. Wei Cai](https://mypage.cuhk.edu.cn/academics/caiwei/index.html) in the [Human-Crypto Society Laboratory](https://hcslab.cuhk.edu.cn/). I am working in the lab on exciting research related to decentralized finance(DeFi) and Web3.
 
-I am deeply passionate about the intersection of technology and finance and firmly believe that technology-driven finance will revolutionize the financial industry. **Specifically, my research interests center on the application of blockchain, AI, and machine learning in finance.**
-> Recent Special Focus:
-> GNN
+I am deeply passionate about the intersection of technology and finance, and firmly believe that technology-driven finance will revolutionize the financial industry. **Specifically, my research interests center on the application of blockchain, AI, and machine learning in finance.**
 
-I possess strong programming skills and take pleasure in coding. I am a gold medalist in the Asian regional contest of the [International Collegiate Programming Contest](https://icpc.global/)(ICPC), the world's most prestigious collegiate programming contest. I am proficient in Python and C/C++ and have gained experience working with R, Matlab, Java, Golang, and JavaScript.
+> Recent Speical Focus:
+> - Large-Scale Graph Neural Network Learning and Applications
+> - Time Series Forecasting for Financial Markets
+> - Security and Performance Analysis of DeFi / Layer2
+
+I possess strong programming skills and take pleasure in coding. I am a gold medalist in the Asian regional contest of the [International Collegiate Programming Contest](https://icpc.global/)(ACM-ICPC), the world's most prestigious collegiate programming contest. I am proficient in Python and C/C++ and have gained experience working with R, Matlab, Java, Golang, and JavaScript.
 
 I have a strong passion for quantitative investment. I have nearly two years of full-time or internship work experience before pursuing my graduate degree. My previous employers, which include [Ubiquant Investment](https://www.ubiquant.com/)(九坤投资), [Harvest Fund](https://www.jsfund.cn/)(嘉实基金), and [JZL Capital](https://www.jzlcapital.xyz/)(君理资本), have all acknowledged my exceptional abilities in this field.
 
@@ -35,4 +38,4 @@ I am a Web3er, and I believe that decentralized autonomous organizations (DAOs) 
 
 I am a technical partner of [DIGICARBON](https://www.digicarbon.cn/)(中财数碳), and my main responsibility is to develop machine learning algorithms and technical frameworks. In fact, I am also interested in topics related to technology-enabled carbon neutrality. I think this topic is the best representation of "Tech For Good".
 
-I was obsessed with business competitions for a long time. I led our team to 7th place in China in the [Global Management Challenge](https://globalmanagementchallenge.com/) in 2021.
+I was obsessed with business competitions for a long time. I led our team to the 7th place in China in the [Global Management Challenge](https://globalmanagementchallenge.com/) in 2021.
