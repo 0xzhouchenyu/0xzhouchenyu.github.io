@@ -9,6 +9,5 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
-
+{% bibliography --group_by type,year --sort type:desc,year:desc  --file {{ site.scholar.bibliography }} %}
 </div>
