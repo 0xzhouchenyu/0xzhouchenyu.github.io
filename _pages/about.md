@@ -27,7 +27,7 @@ I am deeply passionate about the intersection of technology and finance, and fir
 
 🚩 Recent Speical Focus:
 - Large-Scale Graph Neural Network Learning and Applications
-- Reinforcement Learning and Time Series Forecasting for Financial Markets
+- Reinforcement Learning and LLM-driven Forecasting for Financial Markets
 - Security and Performance Analysis of DeFi / Blockchain Layer 2
 
 I possess strong programming skills and take pleasure in coding. I am a gold medalist in the Asian regional contest of the [International Collegiate Programming Contest](https://icpc.global/)(ACM-ICPC), the world's most prestigious collegiate programming contest. I am proficient in Python and C/C++ and have gained experience working with R, Matlab, Java, Golang, and JavaScript. 
