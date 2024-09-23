@@ -34,12 +34,18 @@ I have a strong passion for quantitative investment. I have nearly two years of 
 
 I was obsessed with business competitions for a long time. I led our team to the 7th place in China in the [Global Management Challenge](https://globalmanagementchallenge.com/) in 2021.
 
-## Services
+## services
+
 - Reviewer:
+
   - IEEE Transactions on Computational Social Systems (TCSS)
+
   - ACM Conference on Human Factors in Computing Systems 2024 (CHI 2024)
+
   - ACM The International Conference on the Foundations of Digital Games 2023 (FDG 2023)
+
   - 1st Workshop on Fintech and Decentralized Finance (FiDeFix 2023)
 
 - Teaching Assistant:
-  - MGTS3401: Data Structure, by Prof. Qi Deng (2024 Autumn) 
+
+  - MGTS3401: Data Structure, by Prof. Qi Deng at SJTU (2024 Autumn) 
