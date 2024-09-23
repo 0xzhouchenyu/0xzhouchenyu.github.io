@@ -11,6 +11,7 @@ profile:
   address: >
     <p>(+86)175-6915-8031</p>
     <p>chenyuzhou@sjtu.edu.cn</p>
+    <p>Antai College of Economics and Management</p>
     <p>Xuhui, Shanghai, China</p>
 
 news: true  # includes a list of news items
