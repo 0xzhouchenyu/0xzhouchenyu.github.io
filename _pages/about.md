@@ -47,4 +47,6 @@ I was obsessed with business competitions for a long time. I led our team to the
 
 - Teaching Assistant:
 
-  - MGTS3401: Data Structure, by Prof. Qi Deng at SJTU (2024 Autumn) 
+  - MGTS3401: Data Structure, by Prof. Qi Deng and Prof. Kai Wang at SJTU (2024 Autumn) 
+  
+  - AI1006: Artificial Intelligence and Humanities, by Prof. Dongdong Ge, Prof. Qi Deng and Prof. Huikang Liu at SJTU (2024 Autumn)
