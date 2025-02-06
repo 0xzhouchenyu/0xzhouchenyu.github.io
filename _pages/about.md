@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi :wave: , This is Chenyu (周宸宇 in Chinese)!
 
-I am currently a first-year PhD student in Institute of Intelligent Computing, [Antai College of Economics and Management](https://www.acem.sjtu.edu.cn/) at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). I'm very proud to be advised by [Prof. Yinyu Ye](https://web.stanford.edu/~yyye/) and [Prof. Dongdong Ge](https://www.acem.sjtu.edu.cn/en/faculty/gedongdong.html). Prior to this, I obtained my bachelar’s degree from [China University of Petroleum, Beijing](https://www.cup.edu.cn/) and my master's degree from [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), where I was advised by [Prof. Wei Cai](https://faculty.washington.edu/weicaics/).
+I am currently a first-year PhD student in Institute of Intelligent Computing, [Antai College of Economics and Management](https://www.acem.sjtu.edu.cn/) at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). I'm very proud to be supervised by [Prof. Yinyu Ye](https://web.stanford.edu/~yyye/) and [Prof. Dongdong Ge](https://www.acem.sjtu.edu.cn/en/faculty/gedongdong.html). Prior to this, I obtained my bachelar’s degree from [China University of Petroleum, Beijing](https://www.cup.edu.cn/) and my master's degree from [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), where I was supervised by [Prof. Wei Cai](https://faculty.washington.edu/weicaics/).
 
 I am deeply passionate about the intersection of technology and finance, and firmly believe that technology-driven finance will revolutionize the financial industry. **Specifically, my research interests center on the application of machine learning (large language models, deep learning and optimization) and blockchain (decentralized computing, smart contract and cryptocurrency) in finance.**
 
@@ -47,6 +47,8 @@ I was obsessed with business competitions for a long time. I led our team to the
 
 - Teaching Assistant:
 
+  - AI1006: Artificial Intelligence and Humanities, by Prof. Dongdong Ge, Prof. Qi Deng and Prof. Huikang Liu at SJTU (2025 Spring, 2024 Fall)
+
   - MGTS3401: Data Structure, by Prof. Qi Deng and Prof. Kai Wang at SJTU (2024 Fall) 
   
-  - AI1006: Artificial Intelligence and Humanities, by Prof. Dongdong Ge, Prof. Qi Deng and Prof. Huikang Liu at SJTU (2024 Fall)
+  
