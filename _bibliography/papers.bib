@@ -12,6 +12,7 @@
   abstract  = {Dynamic programming (DP) is a fundamental method in operations research, but formulating DP models has traditionally required expert knowledge of both the problem context and DP techniques. Large Language Models (LLMs) offer the potential to automate this process. However, DP problems pose unique challenges due to their inherently stochastic transitions and the limited availability of training data. These factors make it difficult to directly apply existing LLM-based models or frameworks developed for other optimization problems, such as linear or integer programming.
   We introduce DP-Bench, the first benchmark covering a wide range of textbook-level DP problems to enable systematic evaluation. We present Dynamic Programming Language Model (DPLM), a 7B-parameter specialized model that achieves performance comparable to state-of-the-art LLMs like OpenAI's o1 and DeepSeek-R1, and surpasses them on hard problems. Central to DPLM's effectiveness is DualReflect, our novel synthetic data generation pipeline, designed to scale up training data from a limited set of initial examples. DualReflect combines forward generation for diversity and backward generation for reliability. Our results reveal a key insight: backward generation is favored in low-data regimes for its strong correctness guarantees, while forward generation, though lacking such guarantees, becomes increasingly valuable at scale for introducing diverse formulations. This trade-off highlights the complementary strengths of both approaches and the importance of combining them.},
   year      = {2025},
+  preview   = {fig_dplm.png},
   selected  = {true}
 }
 
@@ -24,7 +25,8 @@
   paper     = {https://dl.acm.org/doi/10.1145/3717867.3717897},
   abstract  = {In the crypto industry, venture capital investors provide funding to drive the domain towards its decentralized vision, while many individual investors follow online investment news to aid their decision-making. By scraping investment event data from crypto data analytics websites, we construct and analyze the joint investment network of venture capital investors in the crypto industry. Our study reveals the centralized nature of the investor network in this supposedly decentralized domain, by identifying central nodes such as Coinbase Venture and disclosing their persistence of dominance, despite Coinbase’s relatively small market share as an exchange. Based on node features, we divide the network into different communities, hinting at investor clustering. To measure the robustness of this network, we simulate various attack strategies to model bankruptcy and risk propagation, confirming its vulnerability as seen in historical events. Additionally, using graph neural network approaches, we fill in unknown structural information of investors, mitigating information asymmetry in investment disclosures and achieving classification accuracy above 70% for tier ratings and over 65% for investor types. Results are validated using data from another platform, exhibiting consistency. This study sheds light on the dynamics of joint investment networks in this emerging tech domain, offering insights for both potential and existing investors.},
   year      = {2025},
-  selected  = {false}
+  preview   = {fig_web3fund.png},
+  selected  = {false},
 }
 
 @inproceedings{HongzhouCSCW2024,
@@ -36,7 +38,8 @@
   paper     = {https://dl.acm.org/doi/10.1145/3710956},
   abstract  = {In the rapidly evolving Web3 world, non-fungible token (NFT) communities are reshaping the formation, distribution, and activation of social capital in ways distinct from traditional models. However, despite their growing impact on societal prosperity, a comprehensive understanding of social capital dynamics within Web3 NFT communities remains limited. This study explores the Mfers community, a key example within Web3 NFT ecosystems. By analyzing social media and blockchain data and using a Delphi method-based human-large language model (LLM) collaboration, we uncovered unique social capital patterns across six dimensions. Our findings highlight a compelling blend of decentralization, inclusion, trust, and empowerment but also raise critical questions about wealth inequality, content quality, and ethical challenges. Based on the findings, we discussed the uniqueness of social capital in Web3 NFT communities, the tension between technical and power decentralization, and the multidimensional nature of societal prosperity. We also suggested directions for future research on decentralized online communities in the CSCW field. This study provides a systematic perspective on social capital in Web3 NFT communities and introduces an innovative human-LLM collaborative analysis, offering insights into the design and governance of benign decentralized online communities.},
   year      = {2024},
-  selected  = {true}
+  selected  = {true},
+  preview   = {fig_mfer.png}
 }
 
 @inproceedings{ChenyuWWW2024,
