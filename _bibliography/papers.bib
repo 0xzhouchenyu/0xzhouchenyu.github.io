@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{ChenyuAutoDP2025,
+  abbr      = {Preprint},
+  title     = {Auto-Formulating Dynamic Programming Problems with Large Language Models},
+  author    = {Chenyu Zhou and Jingyuan Yang and Linwei Xin and Yitian Chen and Ziyan He and Dongdong Ge},
+  journal   = {Under Review},
+  paper     = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5350161},
+  abstract  = {Dynamic programming (DP) is a fundamental method in operations research, but formulating DP models has traditionally required expert knowledge of both the problem context and DP techniques. Large Language Models (LLMs) offer the potential to automate this process. However, DP problems pose unique challenges due to their inherently stochastic transitions and the limited availability of training data. These factors make it difficult to directly apply existing LLM-based models or frameworks developed for other optimization problems, such as linear or integer programming.
+  We introduce DP-Bench, the first benchmark covering a wide range of textbook-level DP problems to enable systematic evaluation. We present Dynamic Programming Language Model (DPLM), a 7B-parameter specialized model that achieves performance comparable to state-of-the-art LLMs like OpenAI's o1 and DeepSeek-R1, and surpasses them on hard problems. Central to DPLM's effectiveness is DualReflect, our novel synthetic data generation pipeline, designed to scale up training data from a limited set of initial examples. DualReflect combines forward generation for diversity and backward generation for reliability. Our results reveal a key insight: backward generation is favored in low-data regimes for its strong correctness guarantees, while forward generation, though lacking such guarantees, becomes increasingly valuable at scale for introducing diverse formulations. This trade-off highlights the complementary strengths of both approaches and the importance of combining them.},
+  year      = {2025},
+  selected  = {true}
+}
+
 @inproceedings{JunyuZZC2025,
   abbr      = {WebSci 2025},
   title     = {Decentralization Funded by Centralization: Understanding Crypto Joint-Investment Network},
