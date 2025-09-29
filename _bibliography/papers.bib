@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{ChenyuStepORLM2025,
+  abbr      = {Preprint},
+  title     = {StepORLM: A Self-Evolving Framework With Generative Process Supervision For Operations Research Language Models},
+  author    = {Chenyu Zhou and Tianyi Xu and Jianghao Lin and Dongdong Ge},
+  journal   = {ArXiv Preprint},
+  paper     = {https://arxiv.org/abs/2509.22558},
+  abstract  = {Large Language Models (LLMs) have shown promising capabilities for solving Operations Research (OR) problems. While reinforcement learning serves as a powerful paradigm for LLM training on OR problems, existing works generally face two key limitations. First, outcome reward suffers from the credit assignment problem, where correct final answers can reinforce flawed reasoning. Second, conventional discriminative process supervision is myopic, failing to evaluate the interdependent steps of OR modeling holistically. To this end, we introduce StepORLM, a novel self-evolving framework with generative process supervision. At its core, StepORLM features a co-evolutionary loop where a policy model and a generative process reward model (GenPRM) iteratively improve on each other. This loop is driven by a dual-feedback mechanism: definitive, outcome-based verification from an external solver, and nuanced, holistic process evaluation from the GenPRM. The combined signal is used to align the policy via Weighted Direct Preference Optimization (W-DPO) and simultaneously refine the GenPRM. Our resulting 8B-parameter StepORLM establishes a new state-of-the-art across six benchmarks, significantly outperforming vastly larger generalist models, agentic methods, and specialized baselines. Moreover, the co-evolved GenPRM is able to act as a powerful and universally applicable process verifier, substantially boosting the inference scaling performance of both our own model and other existing LLMs.},
+  year      = {2025},
+  preview   = {fig_steporlm.png},
+  selected  = {true}
+}
+
 @article{ChenyuAutoDP2025,
   abbr      = {Preprint},
   title     = {Auto-Formulating Dynamic Programming Problems with Large Language Models},
