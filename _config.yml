@@ -246,6 +246,7 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - .ruby-version
   - vendor
 keep_files:
   - CNAME
@@ -363,6 +364,8 @@ filtered_bibtex_keywords:
     blog,
     code,
     html,
+    huggingface,
+    openreview,
     paper,
     pdf,
     poster,
