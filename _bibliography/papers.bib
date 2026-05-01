@@ -3,6 +3,30 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{ChenyuMemDecoder2026,
+  abbr      = {ICML 2026},
+  title     = {MemDecoder: Enhancing Test-Time Compute for LLM Agents via Reinforced Memory Decoding},
+  author    = {Haoran Yin and Chenyu Zhou and Wei Zhu and Yuhua Jin},
+  booktitle = {The Forty-Third International Conference on Machine Learning},
+  series    = {ICML '26},
+  abstract  = {Agentic memory - conditioning large language and vision-language models on past cases, external knowledge, or meta-experiences - has become a key mechanism for improving inference-time reasoning. However, existing approaches largely rely on heuristic retrieval or expensive LLM-based reranking, and do not explicitly learn how to compose memory for a given query. To address these limitations, we propose MemDecoder, a learned framework for adaptive agentic memory selection. MemDecoder formulates memory composition as an autoregressive index decoding problem over a retrieved candidate set, using a lightweight Transformer encoder-decoder to generate an ordered sequence of memory elements. This design enables efficient, task-aware few-shot reasoning without generating textual demonstrations. MemDecoder can be trained via supervised fine-tuning and reinforcement learning with verifiable rewards. We further introduce a ranking-aware variant of Group Relative Policy Optimization that exploits pairwise comparisons within response groups to provide richer learning signals. Experiments across visual question answering, mathematical reasoning, and scientific question answering benchmarks show that MemDecoder consistently outperforms prior agentic memory selection methods, demonstrating the benefits of the architectural design and learning algorithm of MemDecoder.},
+  year      = {2026},
+  preview   = {mem_encoder.png},
+  selected  = {true}
+}
+
+@article{ChenyuAgoraOpt2026,
+  abbr      = {Preprint},
+  title     = {From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling},
+  author    = {Jianghao Lin and Zi Ling and Chenyu Zhou and Tianyi Xu and Ruoqing Jiang and Zizhuo Wang and Dongdong Ge},
+  journal   = {Submitted to Operations Research},
+  paper     = {https://arxiv.org/abs/2604.25847},
+  abstract  = {Optimization modeling underpins real-world decision-making in logistics, manufacturing, energy, and public services, but reliably solving such problems from natural-language requirements remains challenging for current large language models (LLMs). In this paper, we propose Agora-Opt, a modular agentic framework for optimization modeling that combines decentralized debate with a read-write memory bank. Agora-Opt allows multiple agent teams to independently produce end-to-end solutions and reconcile them through an outcome-grounded debate protocol, while memory stores solver-verified artifacts and past disagreement resolutions to support training-free improvement over time. This design is flexible across both backbones and methods: it reduces base-model lock-in, transfers across different LLM families, and can be layered onto existing pipelines with minimal coupling. Across public benchmarks, Agora-Opt achieves the strongest overall performance among all compared methods, outperforming strong zero-shot LLMs, training-centric approaches, and prior agentic baselines. Further analyses show robust gains across backbone choices and component variants, and demonstrate that decentralized debate offers a structural advantage over centralized selection by enabling agents to refine candidate solutions through interaction and even recover correct formulations when all initial candidates are flawed. These results suggest that reliable optimization modeling benefits from combining collaborative cross-checking with reusable experience, and position Agora-Opt as a practical and extensible foundation for trustworthy optimization modeling assistance.},
+  year      = {2026},
+  preview   = {or_debate.png},
+  selected  = {true}
+}
+
 @article{ChenyuExternalization2026,
   abbr      = {Preprint},
   title     = {Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering},
