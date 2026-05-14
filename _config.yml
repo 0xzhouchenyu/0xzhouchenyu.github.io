@@ -365,6 +365,8 @@ filtered_bibtex_keywords:
     code,
     html,
     huggingface,
+    media,
+    media_name,
     openreview,
     paper,
     pdf,

@@ -749,6 +749,11 @@ footer.sticky-bottom {
       }
 
       .links {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem 0.5rem;
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
@@ -765,6 +770,16 @@ footer.sticky-bottom {
         }
         a.award.btn {
           border-color: var(--global-highlight-color);
+        }
+        a.cite-btn {
+          border-color: var(--global-theme-color);
+          color: var(--global-theme-color);
+          order: 10;
+
+          &:hover {
+            background-color: var(--global-theme-color);
+            color: var(--global-hover-text-color);
+          }
         }
       }
 
@@ -821,6 +836,59 @@ footer.sticky-bottom {
 
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
+      }
+
+      div.citation-panel.hidden {
+        border: 1px solid transparent;
+        border-radius: 6px;
+        margin-top: 0.4rem;
+        text-align: left;
+
+        .citation-label {
+          color: var(--global-text-color-light);
+          font-size: 0.68rem;
+          font-weight: 700;
+          letter-spacing: 0.04em;
+          margin: 0.85rem 0 0.35rem;
+          text-transform: uppercase;
+        }
+
+        .citation-text {
+          background: rgba(0, 0, 0, 0.025);
+          border-left: 3px solid var(--global-divider-color);
+          border-radius: 4px;
+          color: var(--global-text-color);
+          font-size: 0.86rem;
+          line-height: 1.55;
+          margin: 0;
+          padding: 0.65rem 0.8rem;
+        }
+
+        .citation-bibtex {
+          background: rgba(0, 0, 0, 0.035);
+          border: 1px solid var(--global-divider-color);
+          border-radius: 6px;
+          color: var(--global-text-color);
+          font-size: 0.78rem;
+          line-height: 1.45;
+          margin: 0 0 0.2rem;
+          max-height: 12rem;
+          overflow: auto;
+          padding: 0.75rem 0.85rem;
+          white-space: pre-wrap;
+
+          code {
+            background: transparent;
+            color: inherit;
+            padding: 0;
+            white-space: inherit;
+          }
+        }
+      }
+
+      div.citation-panel.hidden.open {
+        border-color: var(--global-divider-color);
+        padding: 0.15rem 0.8rem 0.8rem;
       }
     }
     div.award.hidden {

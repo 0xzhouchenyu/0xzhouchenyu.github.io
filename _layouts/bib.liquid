@@ -183,6 +183,7 @@
     </div>
 
     <!-- Links/Buttons -->
+    {% assign citation = site.data.citations[entry.key] %}
     <div class="links">
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
@@ -194,9 +195,6 @@
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
-      {% endif %}
-      {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -234,6 +232,9 @@
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
+      {% if entry.media %}
+        <a href="{{ entry.media }}" class="btn btn-sm z-depth-0" role="button">{% if entry.media_name %}{{ entry.media_name }}{% else %}Media{% endif %}</a>
+      {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
@@ -259,6 +260,9 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+      {% endif %}
+      {% if citation or entry.bibtex_show %}
+        <a class="bibtex cite-btn btn btn-sm z-depth-0" role="button">Cite</a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
@@ -360,12 +364,20 @@
       </div>
     {% endif %}
 
-    {% if entry.bibtex_show %}
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        {% highlight bibtex %}
-        {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
+    {% if citation or entry.bibtex_show %}
+      <!-- Hidden citation block -->
+      <div class="bibtex hidden citation-panel">
+        {% if citation.text %}
+          <div class="citation-label">Formatted citation</div>
+          <p class="citation-text">{{ citation.text }}</p>
+        {% endif %}
+        {% if citation.bibtex %}
+          <div class="citation-label">BibTeX</div>
+          <pre class="citation-bibtex"><code>{{ citation.bibtex | escape }}</code></pre>
+        {% else %}
+          <div class="citation-label">BibTeX</div>
+          <pre class="citation-bibtex"><code>{{ entry.bibtex | hideCustomBibtex | escape }}</code></pre>
+        {% endif %}
       </div>
     {% endif %}
 

@@ -3,12 +3,25 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{ChenyuOSDN2026,
+  abbr      = {Preprint},
+  title     = {OSDN: Improving Delta Rule with Provable Online Preconditioning in Linear Attention},
+  author    = {Chenyu Zhou and Hongpei Li and Yuerou Liu and Jianghao Lin and Dongdong Ge and Yinyu Ye},
+  journal   = {arXiv preprint arXiv:2605.13473},
+  paper     = {https://arxiv.org/abs/2605.13473},
+  abstract  = {Linear attention and state-space models offer constant-memory alternatives to softmax attention, but often struggle with in-context associative recall. The Delta Rule mitigates this by writing each token via one step of online gradient descent. However, its step size relies on a single scalar gate that ignores the feature-wise curvature of the inner objective. We propose Online Scaled DeltaNet (OSDN), which augments the scalar gate with a diagonal preconditioner updated online via hypergradient feedback. Crucially, this right-preconditioning is algebraically equivalent to a per-feature scaling of the write-side key. This equivalence allows OSDN to strictly preserve the hardware-friendly chunkwise parallel pipeline of DeltaNet without incurring high-dimensional state overhead. Theoretically, by exploiting the exact-quadratic structure of the inner regression loss, we establish super-geometric convergence against a right-Newton comparator and prove an algorithm-aligned token-local residual contraction bound. To handle non-stationary contexts, we further introduce Adaptive Preconditioner Forgetting (APF) to dynamically refresh stale calibration. Empirically, OSDN demonstrates strong performance across scales. At the 340M-parameter scale, OSDN improves JRT-style in-context recall by 32\% over DeltaNet. Scaling to 1.3B parameters, it achieves a 39\% reduction in the recall residual ratio while maintaining parity on general downstream tasks, demonstrating that our online-preconditioning mechanism effectively transfers and amplifies at the billion-parameter scale.},
+  year      = {2026},
+  preview   = {osdn_banner.png},
+  selected  = {true}
+}
+
 @inproceedings{ChenyuMemDecoder2026,
   abbr      = {ICML 2026},
   title     = {MemDecoder: Enhancing Test-Time Compute for LLM Agents via Reinforced Memory Decoding},
   author    = {Haoran Yin and Chenyu Zhou and Wei Zhu and Yuhua Jin},
   booktitle = {The Forty-Third International Conference on Machine Learning},
   series    = {ICML '26},
+  website   = {https://icml.cc/virtual/2026/poster/65523},
   abstract  = {Agentic memory - conditioning large language and vision-language models on past cases, external knowledge, or meta-experiences - has become a key mechanism for improving inference-time reasoning. However, existing approaches largely rely on heuristic retrieval or expensive LLM-based reranking, and do not explicitly learn how to compose memory for a given query. To address these limitations, we propose MemDecoder, a learned framework for adaptive agentic memory selection. MemDecoder formulates memory composition as an autoregressive index decoding problem over a retrieved candidate set, using a lightweight Transformer encoder-decoder to generate an ordered sequence of memory elements. This design enables efficient, task-aware few-shot reasoning without generating textual demonstrations. MemDecoder can be trained via supervised fine-tuning and reinforcement learning with verifiable rewards. We further introduce a ranking-aware variant of Group Relative Policy Optimization that exploits pairwise comparisons within response groups to provide richer learning signals. Experiments across visual question answering, mathematical reasoning, and scientific question answering benchmarks show that MemDecoder consistently outperforms prior agentic memory selection methods, demonstrating the benefits of the architectural design and learning algorithm of MemDecoder.},
   year      = {2026},
   preview   = {mem_encoder.png},
@@ -31,7 +44,10 @@
   abbr      = {Preprint},
   title     = {Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering},
   author    = {Chenyu Zhou and Huacan Chai and Wenteng Chen and Zihan Guo and Rong Shan and Yuanyi Song and Tianyi Xu and Yingxuan Yang and Aofan Yu and Weiming Zhang and Congming Zheng and Jiachen Zhu and Zeyu Zheng and Zhuosheng Zhang and Xingyu Lou and Changwang Zhang and Zhihui Fu and Jun Wang and Weiwen Liu and Jianghao Lin and Weinan Zhang},
+  journal   = {arXiv preprint arXiv:2604.08224},
   paper     = {https://arxiv.org/abs/2604.08224},
+  media     = {https://mp.weixin.qq.com/s/cXm3PWdpED2DaXk8oj-7iw},
+  media_name = {Media},
   abstract  = {LLM agent development increasingly relies on reorganizing runtime infrastructure rather than modifying model weights. We present a framework analyzing four externalization dimensions: memory stores persist state over time, skills encapsulate procedural knowledge, protocols structure interactions, and harness engineering coordinates these elements into reliable execution. We trace progress from weights to context to harness design, examining trade-offs between parametric and externalized capabilities while discussing evaluation challenges and the co-evolution of models with external infrastructure.},
   year      = {2026},
   preview   = {fig_externalization.png},

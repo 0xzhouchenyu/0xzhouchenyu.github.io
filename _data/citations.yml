@@ -1,0 +1,135 @@
+ChenyuMemDecoder2026:
+  text: "Yin, H., Zhou, C., Zhu, W., and Jin, Y. MemDecoder: Enhancing Test-Time Compute for LLM Agents via Reinforced Memory Decoding. In The Forty-Third International Conference on Machine Learning (ICML 2026), 2026."
+  bibtex: |
+    @inproceedings{yin2026memdecoder,
+      title={MemDecoder: Enhancing Test-Time Compute for LLM Agents via Reinforced Memory Decoding},
+      author={Yin, Haoran and Zhou, Chenyu and Zhu, Wei and Jin, Yuhua},
+      booktitle={The Forty-Third International Conference on Machine Learning},
+      year={2026},
+      url={https://icml.cc/virtual/2026/poster/65523}
+    }
+
+ChenyuOSDN2026:
+  text: "Zhou, C., Li, H., Liu, Y., Lin, J., Ge, D., and Ye, Y. OSDN: Improving Delta Rule with Provable Online Preconditioning in Linear Attention. arXiv preprint arXiv:2605.13473, 2026."
+  bibtex: |
+    @misc{zhou2026osdnimprovingdeltarule,
+      title={OSDN: Improving Delta Rule with Provable Online Preconditioning in Linear Attention},
+      author={Chenyu Zhou and Hongpei Li and Yuerou Liu and Jianghao Lin and Dongdong Ge and Yinyu Ye},
+      year={2026},
+      eprint={2605.13473},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.13473}
+    }
+
+ChenyuAgoraOpt2026:
+  text: "Lin, J., Ling, Z., Zhou, C., Xu, T., Jiang, R., Wang, Z., and Ge, D. From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling. arXiv preprint arXiv:2604.25847, 2026."
+  bibtex: |
+    @misc{lin2026soliloquyagoramemoryenhancedllm,
+      title={From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling},
+      author={Jianghao Lin and Zi Ling and Chenyu Zhou and Tianyi Xu and Ruoqing Jiang and Zizhuo Wang and Dongdong Ge},
+      year={2026},
+      eprint={2604.25847},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2604.25847}
+    }
+
+ChenyuExternalization2026:
+  text: "Zhou, C., Chai, H., Chen, W., Guo, Z., Shan, R., Song, Y., Xu, T., Yang, Y., Yu, A., Zhang, W., Zheng, C., Zhu, J., Zheng, Z., Zhang, Z., Lou, X., Zhang, C., Fu, Z., Wang, J., Liu, W., Lin, J., and Zhang, W. Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering. arXiv preprint arXiv:2604.08224, 2026."
+  bibtex: |
+    @misc{zhou2026externalizationllmagentsunified,
+      title={Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering},
+      author={Chenyu Zhou and Huacan Chai and Wenteng Chen and Zihan Guo and Rong Shan and Yuanyi Song and Tianyi Xu and Yingxuan Yang and Aofan Yu and Weiming Zhang and Congming Zheng and Jiachen Zhu and Zeyu Zheng and Zhuosheng Zhang and Xingyu Lou and Changwang Zhang and Zhihui Fu and Jun Wang and Weiwen Liu and Jianghao Lin and Weinan Zhang},
+      year={2026},
+      eprint={2604.08224},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2604.08224}
+    }
+
+ChenyuStepORLM2025:
+  text: "Zhou, C., Xu, T., Lin, J., and Ge, D. StepORLM: A Self-Evolving Framework With Generative Process Supervision For Operations Research Language Models. In The Fourteenth International Conference on Learning Representations, 2026."
+  bibtex: |
+    @inproceedings{zhou2026steporlm,
+      title={Step{ORLM}: A Self-Evolving Framework With Generative Process Supervision For Operations Research Language Models},
+      author={Chenyu Zhou and Tianyi Xu and Jianghao Lin and Dongdong Ge},
+      booktitle={The Fourteenth International Conference on Learning Representations},
+      year={2026},
+      url={https://openreview.net/forum?id=ZrgxU8WMmG}
+    }
+
+ChenyuAutoDP2025:
+  text: "Zhou, C., Yang, J., Xin, L., Chen, Y., He, Z., and Ge, D. Auto-Formulating Dynamic Programming Problems with Large Language Models. arXiv preprint arXiv:2507.11737, 2026."
+  bibtex: |
+    @misc{zhou2026autoformulatingdynamicprogrammingproblems,
+      title={Auto-Formulating Dynamic Programming Problems with Large Language Models},
+      author={Chenyu Zhou and Jingyuan Yang and Linwei Xin and Yitian Chen and Ziyan He and Dongdong Ge},
+      year={2026},
+      eprint={2507.11737},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2507.11737}
+    }
+
+JunyuZZC2025:
+  text: "Zhang, J., Zhou, C., and Cai, W. Decentralization Funded by Centralization: Understanding Crypto Joint-Investment Network. In Proceedings of the 17th ACM Web Science Conference 2025 (WebSci '25), pages 86--95, 2025. DOI: 10.1145/3717867.3717897."
+  bibtex: |
+    @inproceedings{zhang2025decentralization,
+      title={Decentralization Funded by Centralization: Understanding Crypto Joint-Investment Network},
+      author={Zhang, Junyu and Zhou, Chenyu and Cai, Wei},
+      booktitle={Proceedings of the 17th ACM Web Science Conference 2025},
+      series={WebSci '25},
+      pages={86--95},
+      year={2025},
+      publisher={ACM},
+      doi={10.1145/3717867.3717897},
+      url={https://doi.org/10.1145/3717867.3717897}
+    }
+
+HongzhouCSCW2024:
+  text: "Chen, H., Zhou, C., El Saddik, A., and Cai, W. Decentralized Web3 Non-Fungible Token Community for Societal Prosperity? A Social Capital Perspective. Proceedings of the ACM on Human-Computer Interaction, 9(2):1--36, 2025. DOI: 10.1145/3710956."
+  bibtex: |
+    @article{chen2025decentralized,
+      title={Decentralized Web3 Non-Fungible Token Community for Societal Prosperity? A Social Capital Perspective},
+      author={Chen, Hongzhou and Zhou, Chenyu and El Saddik, Abdulmotaleb and Cai, Wei},
+      journal={Proceedings of the ACM on Human-Computer Interaction},
+      volume={9},
+      number={2},
+      pages={1--36},
+      year={2025},
+      publisher={Association for Computing Machinery (ACM)},
+      doi={10.1145/3710956},
+      url={https://doi.org/10.1145/3710956}
+    }
+
+ChenyuWWW2024:
+  text: "Zhou, C., Chen, H., Wu, H., Zhang, J., and Cai, W. ARTEMIS: Detecting Airdrop Hunters in NFT Markets with a Graph Learning System. In Proceedings of the ACM Web Conference 2024 (WWW '24), pages 1824--1834, 2024. DOI: 10.1145/3589334.3645597."
+  bibtex: |
+    @inproceedings{zhou2024artemis,
+      title={ARTEMIS: Detecting Airdrop Hunters in NFT Markets with a Graph Learning System},
+      author={Zhou, Chenyu and Chen, Hongzhou and Wu, Hao and Zhang, Junyu and Cai, Wei},
+      booktitle={Proceedings of the ACM Web Conference 2024},
+      series={WWW '24},
+      pages={1824--1834},
+      year={2024},
+      publisher={ACM},
+      doi={10.1145/3589334.3645597},
+      url={https://doi.org/10.1145/3589334.3645597}
+    }
+
+ChenyuZCWSEC2023:
+  text: "Zhou, C., Chen, H., Wang, S., Sun, X., El Saddik, A., and Cai, W. Harnessing Web3 on Carbon Offset Market for Sustainability: Framework and A Case Study. IEEE Wireless Communications, 30(5):104--111, 2023. DOI: 10.1109/MWC.010.2300038."
+  bibtex: |
+    @article{zhou2023harnessing,
+      title={Harnessing Web3 on Carbon Offset Market for Sustainability: Framework and A Case Study},
+      author={Zhou, Chenyu and Chen, Hongzhou and Wang, Shiman and Sun, Xinyao and El Saddik, Abdulmotaleb and Cai, Wei},
+      journal={IEEE Wireless Communications},
+      volume={30},
+      number={5},
+      pages={104--111},
+      year={2023},
+      publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+      doi={10.1109/MWC.010.2300038},
+      url={https://doi.org/10.1109/MWC.010.2300038}
+    }
