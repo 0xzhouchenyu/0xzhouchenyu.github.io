@@ -3,6 +3,30 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{WangSkillTTA2026,
+  abbr      = {Preprint},
+  title     = {Skills on the Fly: Test-Time Adaptive Skill Synthesis for LLM Agents},
+  author    = {Jingxing Wang and Chenyu Zhou and Zhihui Fu and Jun Wang and Weiwen Liu and Weinan Zhang and Jianghao Lin},
+  journal   = {arXiv preprint arXiv:2605.16986},
+  paper     = {https://arxiv.org/abs/2605.16986},
+  abstract  = {LLM agents benefit from reusable skills, yet test-time tasks often require guidance more specific than a static skill library can provide. We propose SkillTTA, a Test-Time Adaptive Skill Synthesis method that retrieves a small set of training trajectories relevant to the current task and synthesizes them into a temporary, task-specific textual skill. The solver model is kept fixed, so adaptation happens entirely through generated context rather than parameter updates. We evaluate the method on SpreadsheetBench, ALFWorld, and BigCodeBench. Compared with static trajectory-to-skill synthesis using GPT-5.5, task-specific skills improve SpreadsheetBench Pass@1 from 0.397 to 0.505 and BigCodeBench Pass@1 from 0.517 to 0.651. On ALFWorld, the method matches a heavier memory-learning baseline within four points of success rate while producing the shortest successful trajectories among reported methods. Ablations on SpreadsheetBench further show that synthesized skills outperform raw trajectory prompting, that top-k retrieval should stay small, and that failed trajectories are especially useful because they expose recurring evaluator-facing mistakes.},
+  year      = {2026},
+  preview   = {fig_skilltta.png},
+  selected  = {true}
+}
+
+@article{ChenyuORSpace2026,
+  abbr      = {Preprint},
+  title     = {OR-Space: A Full-Lifecycle Workspace Benchmark for Industrial Optimization Agents},
+  author    = {Chenyu Zhou and Xinyun Lu and Jiangyue Zhao and Jianghao Lin and Dongdong Ge and Yinyu Ye},
+  journal   = {arXiv preprint arXiv:2605.28158},
+  paper     = {https://arxiv.org/abs/2605.28158},
+  abstract  = {Large language model agents are increasingly used to assist with operations research modeling, yet existing OR-oriented benchmarks often reduce evaluation to one-shot translation from a self-contained textual problem statement into a mathematical formulation or solver program. OR-Space is a full-lifecycle workspace benchmark for evaluating industrial optimization agents across model construction, model revision, and grounded explanation. Each instance is represented as a persistent executable workspace containing business documents, structured data, optional code artifacts, solver outputs, and task-specific evaluators distributed across multiple interdependent files. By combining persistent multi-artifact workspaces with lifecycle-oriented task modes, OR-Space evaluates whether agents can perform reliable optimization work beyond end-to-end text generation.},
+  year      = {2026},
+  preview   = {fig_orspace.png},
+  selected  = {true}
+}
+
 @article{ChenyuOSDN2026,
   abbr      = {Preprint},
   title     = {OSDN: Improving Delta Rule with Provable Online Preconditioning in Linear Attention},
