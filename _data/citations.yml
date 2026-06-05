@@ -1,14 +1,3 @@
-ChenyuMemDecoder2026:
-  text: "Yin, H., Zhou, C., Zhu, W., and Jin, Y. MemDecoder: Enhancing Test-Time Compute for LLM Agents via Reinforced Memory Decoding. In The Forty-Third International Conference on Machine Learning (ICML 2026), 2026."
-  bibtex: |
-    @inproceedings{yin2026memdecoder,
-      title={MemDecoder: Enhancing Test-Time Compute for LLM Agents via Reinforced Memory Decoding},
-      author={Yin, Haoran and Zhou, Chenyu and Zhu, Wei and Jin, Yuhua},
-      booktitle={The Forty-Third International Conference on Machine Learning},
-      year={2026},
-      url={https://icml.cc/virtual/2026/poster/65523}
-    }
-
 ChenyuOSDN2026:
   text: "Zhou, C., Li, H., Liu, Y., Lin, J., Ge, D., and Ye, Y. OSDN: Improving Delta Rule with Provable Online Preconditioning in Linear Attention. arXiv preprint arXiv:2605.13473, 2026."
   bibtex: |
