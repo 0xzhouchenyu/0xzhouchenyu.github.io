@@ -261,7 +261,7 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
-      {% if citation or entry.bibtex_show %}
+      {% if citation or entry.bibtex_show or entry.arxiv %}
         <a class="bibtex cite-btn btn btn-sm z-depth-0" role="button">Cite</a>
       {% endif %}
     </div>
@@ -364,7 +364,7 @@
       </div>
     {% endif %}
 
-    {% if citation or entry.bibtex_show %}
+    {% if citation or entry.bibtex_show or entry.arxiv %}
       <!-- Hidden citation block -->
       <div class="bibtex hidden citation-panel">
         {% if citation.text %}
