@@ -229,11 +229,17 @@
       {% elsif entry.video %}
         <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
       {% endif %}
+      {% if entry.youtube %}
+        <a href="{{ entry.youtube }}" class="btn btn-sm z-depth-0" role="button"><i class="fa-brands fa-youtube" aria-hidden="true"></i> YouTube</a>
+      {% endif %}
+      {% if entry.bilibili %}
+        <a href="{{ entry.bilibili }}" class="btn btn-sm z-depth-0" role="button"><i class="fa-brands fa-bilibili" aria-hidden="true"></i> Bilibili</a>
+      {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
-      {% if entry.media %}
-        <a href="{{ entry.media }}" class="btn btn-sm z-depth-0" role="button">{% if entry.media_name %}{{ entry.media_name }}{% else %}Media{% endif %}</a>
+      {% if entry.machine_heart %}
+        <a href="{{ entry.machine_heart }}" class="btn btn-sm z-depth-0" role="button"><i class="fa-solid fa-newspaper" aria-hidden="true"></i> 机器之心</a>
       {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>

@@ -25,6 +25,6 @@ I am currently a second-year PhD student in Institute of Intelligent Computing, 
 
 My research interests center on the application of large language models and optimization in Operations Research and FinTech.
 
-I am a gold medalist in the Asian regional contest of the [International Collegiate Programming Contest](https://icpc.global/) (ACM-ICPC). I have served as an AI researcher at [Cardinal Operations](https://www.shanshu.ai/)(杉数科技), [Tencent](https://www.tencent.com/en-us/)(腾讯), and [Meituan](https://www.meituan.com/)(美团).
+I am a gold medalist in the Asian regional contest of the [International Collegiate Programming Contest](https://icpc.global/) (ACM-ICPC). I have served as an AI researcher at [Cardinal Operations](https://www.shanshu.ai/)(杉数科技), [Tencent](https://www.tencent.com/en-us/)(腾讯), [OPPO](https://www.oppo.com/en/), and [Meituan](https://www.meituan.com/)(美团).
 
 Prior to my PhD, I worked in quantitative investment at [Ubiquant Investment](https://www.ubiquant.com/)(九坤投资), [Harvest Fund](https://www.jsfund.cn/)(嘉实基金), and [JZL Capital](https://www.jzlcapital.xyz/)(君理资本). I also led our team to 7th place in China in the [Global Management Challenge](https://globalmanagementchallenge.com/) in 2021.

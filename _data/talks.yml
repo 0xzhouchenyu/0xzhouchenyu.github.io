@@ -1,0 +1,142 @@
+- title: "OSDN: Improving Delta Rule with Provable Online Preconditioning in Linear Attention"
+  venue: "2026 POMS China International Conference"
+  location: "Xi'an, China"
+  date: 2026-07-17
+  year: 2026
+  type: "Conference Presentation"
+  description: "Conference dates: July 17-20, 2026."
+  paper: "https://arxiv.org/abs/2605.13473"
+  website: "https://poms.xjtu.edu.cn/"
+
+- title: "Towards Fine-Grained Supervision for Operations Research Language Models"
+  venue: "IFORS 2026"
+  location: "Vienna, Austria"
+  date: 2026-07-14
+  year: 2026
+  type: "Invited Talk"
+  description: "Invited session: Leverage LLM for Operations Research: Formulation and Solution."
+  paper: "https://arxiv.org/abs/2509.22558"
+  website: "https://0xzhouchenyu.github.io/StepORLM/"
+  links:
+    - label: "Conference"
+      url: "https://ifors2026.at/"
+
+- title: "模型之外的智能：LLM Agent 的外部化范式"
+  venue: "2026 中国 AI 智能体大会 (AgenticAICon 2026)"
+  location: "Hangzhou, China"
+  date: 2026-07-02
+  year: 2026
+  type: "Invited Talk"
+  description: "Conference dates: July 2-3, 2026."
+  paper: "https://arxiv.org/abs/2604.08224"
+  website: "https://gtic.zhidx.com/"
+  links:
+    - label: "Media"
+      url: "https://mp.weixin.qq.com/s/cXm3PWdpED2DaXk8oj-7iw"
+
+- title: "StepORLM: A Self-Evolving Framework With Generative Process Supervision For Operations Research Language Models"
+  venue: "上海交通大学 3A 校友会博士论坛 (SJTU 3A Alumni Association Doctoral Forum)"
+  date: 2026-05-01
+  year: 2026
+  type: "Online Seminar"
+  description: "Doctoral Forum No. 39."
+  paper: "https://arxiv.org/abs/2509.22558"
+  website: "https://0xzhouchenyu.github.io/StepORLM/"
+  links:
+    - label: "Bilibili"
+      url: "https://www.bilibili.com/video/BV1VydgBbEae/"
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=ZrgxU8WMmG"
+    - label: "Code"
+      url: "https://github.com/0xzhouchenyu/StepORLM"
+    - label: "Model"
+      url: "https://huggingface.co/Chenyu-Zhou/StepORLM-Qwen3-8B"
+
+- title: "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering"
+  venue: "NICE AI Talk"
+  date: 2026-05-01
+  year: 2026
+  type: "Online Seminar"
+  paper: "https://arxiv.org/abs/2604.08224"
+  links:
+    - label: "YouTube"
+      url: "https://www.youtube.com/watch?v=pISaqKHFwPk"
+    - label: "Bilibili"
+      url: "https://www.bilibili.com/video/BV1mL5d66ECJ/"
+    - label: "机器之心"
+      url: "https://mp.weixin.qq.com/s/cXm3PWdpED2DaXk8oj-7iw"
+
+- title: "StepORLM: A Self-Evolving Framework With Generative Process Supervision For Operations Research Language Models"
+  venue: "ICLR 2026"
+  location: "Rio de Janeiro, Brazil"
+  date: 2026-04-23
+  year: 2026
+  type: "Poster"
+  description: "ICLR 2026 is held April 23-27, 2026."
+  paper: "https://arxiv.org/abs/2509.22558"
+  website: "https://0xzhouchenyu.github.io/StepORLM/"
+  links:
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=ZrgxU8WMmG"
+    - label: "Code"
+      url: "https://github.com/0xzhouchenyu/StepORLM"
+    - label: "Model"
+      url: "https://huggingface.co/Chenyu-Zhou/StepORLM-Qwen3-8B"
+
+- title: "Auto-Formulating Dynamic Programming Problems with Large Language Models"
+  venue: "POMS-HK 2026"
+  location: "Shenzhen, China"
+  date: 2026-01-04
+  year: 2026
+  type: "Conference Presentation"
+  description: "Session F24: Data Analytics."
+  slides: "ChenyuAutoDP2025_slides.pdf"
+  paper: "https://arxiv.org/abs/2507.11737"
+  website: "https://sme.cuhk.edu.cn/en/article/3421"
+  links:
+    - label: "SSRN"
+      url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5350161"
+    - label: "Program"
+      url: "https://sme.cuhk.edu.cn/sites/default/files/2025-12/program_12_27_v1.pdf"
+
+- title: "Auto-Formulating Dynamic Programming Problems with Large Language Models"
+  venue: "中国运筹学会第一届青年学术大会 (ORSC 1st Youth Academic Conference)"
+  location: "Taiyuan, China"
+  date: 2025-08-21
+  year: 2025
+  type: "Theme Forum Talk"
+  description: "Theme Forum TM26: 大模型和运筹优化协同创新研究与应用."
+  slides: "ChenyuAutoDP2025_slides.pdf"
+  paper: "https://arxiv.org/abs/2507.11737"
+  links:
+    - label: "SSRN"
+      url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5350161"
+    - label: "Program"
+      url: "https://conf.orsc.org.cn/storage/files/20250813/y2qX3WUJ482b1njWG8kjCyHEuJrGE5auWOw8AecK.pdf"
+
+- title: "Auto-Formulating Dynamic Programming Problems with Large Language Models"
+  venue: "MOS 2025 (15th National Conference on Mathematical Optimization)"
+  location: "Shanghai, China"
+  date: 2025-05-18
+  year: 2025
+  type: "Special Session Talk"
+  description: "Session B6: Optimization and Large Models."
+  slides: "ChenyuAutoDP2025_slides.pdf"
+  paper: "https://arxiv.org/abs/2507.11737"
+  links:
+    - label: "SSRN"
+      url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5350161"
+    - label: "Program"
+      url: "https://conf.orsc.org.cn/storage/files/20250514/4Zkvysgt59ZC6F6C848O7DEYnHSAjAcsml2lICYW.pdf"
+
+- title: "ARTEMIS: Detecting Airdrop Hunters in NFT Markets with a Graph Learning System"
+  venue: "WWW 2024"
+  location: "Singapore, Singapore"
+  date: 2024-05-13
+  year: 2024
+  type: "Oral Presentation"
+  paper: "https://dl.acm.org/doi/10.1145/3589334.3645597"
+  website: "https://www2024.thewebconf.org/"
+  links:
+    - label: "Data/Code"
+      url: "https://doi.org/10.5281/zenodo.10676801"
