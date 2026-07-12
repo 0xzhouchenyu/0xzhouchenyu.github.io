@@ -1,11 +1,11 @@
-- title: "OSDN: Improving Delta Rule with Provable Online Preconditioning in Linear Attention"
+- title: "OR-Space: A Full-Lifecycle Workspace Benchmark for Industrial Optimization Agents"
   venue: "2026 POMS China International Conference"
   location: "Xi'an, China"
   date: 2026-07-17
   year: 2026
-  type: "Conference Presentation"
+  type: "Invited Talk"
   description: "Conference dates: July 17-20, 2026."
-  paper: "https://arxiv.org/abs/2605.13473"
+  paper: "https://arxiv.org/abs/2605.28158"
   website: "https://poms.xjtu.edu.cn/"
 
 - title: "Towards Fine-Grained Supervision for Operations Research Language Models"
@@ -38,7 +38,7 @@
   venue: "上海交通大学 3A 校友会博士论坛 (SJTU 3A Alumni Association Doctoral Forum)"
   date: 2026-05-01
   year: 2026
-  type: "Online Seminar"
+  type: "Online Invited Talk"
   description: "Doctoral Forum No. 39."
   paper: "https://arxiv.org/abs/2509.22558"
   website: "https://0xzhouchenyu.github.io/StepORLM/"
@@ -56,7 +56,7 @@
   venue: "NICE AI Talk"
   date: 2026-05-01
   year: 2026
-  type: "Online Seminar"
+  type: "Online Invited Talk"
   paper: "https://arxiv.org/abs/2604.08224"
   links:
     - label: "YouTube"
@@ -88,7 +88,7 @@
   location: "Shenzhen, China"
   date: 2026-01-04
   year: 2026
-  type: "Conference Presentation"
+  type: "Invited Talk"
   description: "Session F24: Data Analytics."
   slides: "ChenyuAutoDP2025_slides.pdf"
   paper: "https://arxiv.org/abs/2507.11737"
@@ -104,7 +104,7 @@
   location: "Taiyuan, China"
   date: 2025-08-21
   year: 2025
-  type: "Theme Forum Talk"
+  type: "Invited Talk"
   description: "Theme Forum TM26: 大模型和运筹优化协同创新研究与应用."
   slides: "ChenyuAutoDP2025_slides.pdf"
   paper: "https://arxiv.org/abs/2507.11737"
@@ -119,7 +119,7 @@
   location: "Shanghai, China"
   date: 2025-05-18
   year: 2025
-  type: "Special Session Talk"
+  type: "Invited Talk"
   description: "Session B6: Optimization and Large Models."
   slides: "ChenyuAutoDP2025_slides.pdf"
   paper: "https://arxiv.org/abs/2507.11737"

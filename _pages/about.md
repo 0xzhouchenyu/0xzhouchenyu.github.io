@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher, Quanter, Web3er, Coder, Gamer.
 
 profile:
   align: right
@@ -13,10 +12,10 @@ profile:
   #   <p>chenyuzhou@sjtu.edu.cn</p>
   #   <p>Xuhui, Shanghai, China</p>
 
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
+news: true # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Hi :wave: , This is Chenyu (周宸宇 in Chinese)!
