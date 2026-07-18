@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We proudly earned the gold medal 🥇 at the ACM-ICPC Asia Regional Contest, representing CUHK-SZ! Congratulations to me and my teammates, Hanfei and Zirong! 
+We proudly earned the gold medal 🥇 at the ACM-ICPC Asia Regional Contest, representing CUHK-SZ! Congratulations to me and my teammates, Hanfei and Zirong!

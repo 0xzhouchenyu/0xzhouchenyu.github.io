@@ -339,7 +339,7 @@ scholar:
   group_order: descending
   # group_by: type
   # group_order: ascending
-  # type_names: 
+  # type_names:
   #   article: "Journal Papers"
   #   inproceedings: "Conference Papers"
 

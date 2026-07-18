@@ -80,7 +80,7 @@
 
         {%- if forloop.length > 1 -%}
           {% if forloop.first == false -%}
-            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %} {% endif %}
+            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
           {%- endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
@@ -238,13 +238,17 @@
         <a href="{{ entry.youtube }}" class="btn btn-sm z-depth-0" role="button"><i class="fa-brands fa-youtube" aria-hidden="true"></i> YouTube</a>
       {% endif %}
       {% if entry.bilibili %}
-        <a href="{{ entry.bilibili }}" class="btn btn-sm z-depth-0" role="button"><i class="fa-brands fa-bilibili" aria-hidden="true"></i> Bilibili</a>
+        <a href="{{ entry.bilibili }}" class="btn btn-sm z-depth-0" role="button"
+          ><i class="fa-brands fa-bilibili" aria-hidden="true"></i> Bilibili</a
+        >
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
       {% if entry.machine_heart %}
-        <a href="{{ entry.machine_heart }}" class="btn btn-sm z-depth-0" role="button"><i class="fa-solid fa-newspaper" aria-hidden="true"></i> 机器之心</a>
+        <a href="{{ entry.machine_heart }}" class="btn btn-sm z-depth-0" role="button"
+          ><i class="fa-solid fa-newspaper" aria-hidden="true"></i> 机器之心</a
+        >
       {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
