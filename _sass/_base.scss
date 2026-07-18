@@ -79,6 +79,7 @@ blockquote {
       color: var(--global-tip-block-text);
     }
 
+    a,
     h1,
     h2,
     h3,
@@ -100,6 +101,7 @@ blockquote {
       color: var(--global-warning-block-text);
     }
 
+    a,
     h1,
     h2,
     h3,
@@ -121,6 +123,7 @@ blockquote {
       color: var(--global-danger-block-text);
     }
 
+    a,
     h1,
     h2,
     h3,
@@ -250,7 +253,8 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 }
 
-.navbar .dropdown-menu {
+.navbar .dropdown-menu,
+.btn-group.dropdown .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
 
@@ -273,6 +277,16 @@ ul.task-list input[type="checkbox"] {
   &:hover {
     color: var(--global-hover-color);
     background-color: var(--global-bg-color);
+  }
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: var(--global-hover-color);
+  color: var(--global-hover-text-color) !important;
+
+  &:hover {
+    color: var(--global-hover-text-color);
   }
 }
 
@@ -903,6 +917,15 @@ footer.sticky-bottom {
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  pre {
+    overflow-x: auto;
+    white-space: pre;
+    word-wrap: normal;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 pre {
@@ -910,6 +933,10 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
+  overflow-x: auto;
+  white-space: pre;
+  word-wrap: normal;
+  -webkit-overflow-scrolling: touch;
 
   pre,
   code {
@@ -917,6 +944,7 @@ pre {
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
+    white-space: inherit;
   }
 }
 
@@ -925,6 +953,8 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 // Transitioning Themes
@@ -1065,28 +1095,6 @@ progress::-moz-progress-bar {
     }
   }
 
-  .dropdown-menu {
-    background-color: var(--global-bg-color);
-  }
-
-  .dropdown-item {
-    background-color: var(--global-bg-color);
-    color: var(--global-text-color);
-
-    &:hover {
-      color: var(--global-hover-color);
-    }
-  }
-
-  .dropdown-item.active,
-  .dropdown-item:active {
-    background-color: var(--global-hover-color);
-    color: var(--global-hover-text-color) !important;
-
-    &:hover {
-      color: var(--global-hover-text-color);
-    }
-  }
 }
 
 /* Table of Contents */
@@ -1126,6 +1134,55 @@ nav[data-toggle="toc"] {
     visibility: hidden;
     height: 0;
     top: 0;
+  }
+
+  pre {
+    font-size: 0.875rem;
+    margin: 0.5rem 0;
+    padding: 8px 10px;
+  }
+
+  figure.highlight {
+    margin: 0.5rem 0;
+
+    pre {
+      font-size: 0.875rem;
+      padding: 8px 10px;
+    }
+  }
+
+  code {
+    font-size: 0.875rem;
+    padding: 2px 4px;
+  }
+}
+
+@media (max-width: 400px) {
+  pre {
+    font-size: 0.8rem;
+    padding: 6px 8px;
+  }
+
+  figure.highlight pre {
+    font-size: 0.8rem;
+    padding: 6px 8px;
+  }
+
+  code {
+    font-size: 0.8rem;
+    padding: 1px 3px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  pre {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  figure.highlight pre {
+    font-size: 0.9rem;
+    padding: 8px 12px;
   }
 }
 
@@ -1371,4 +1428,8 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  overflow-x: auto;
 }
