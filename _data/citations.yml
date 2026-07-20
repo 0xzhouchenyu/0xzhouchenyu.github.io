@@ -37,7 +37,7 @@ WuDynaKRAG2026:
     }
 
 YinULPSwap2026:
-  text: "Yin, H., Sun, J., Zhao, R., Zhou, C., and Jin, Y. ULP-Swap: A Unified Liquidity Pool for Financial Reuse of Gaming NFTs via Pool Rentals and ABP-Secured Swaps. IEEE Transactions on Computational Social Systems, early access / forthcoming, 2026. DOI: 10.1109/TCSS.2026.3708983."
+  text: "Yin, H., Sun, J., Zhao, R., Zhou, C., and Jin, Y. ULP-Swap: A Unified Liquidity Pool for Financial Reuse of Gaming NFTs via Pool Rentals and ABP-Secured Swaps. IEEE Transactions on Computational Social Systems, 2026. DOI: 10.1109/TCSS.2026.3708983."
   bibtex: |
     @article{yin2026ulpswap,
       title={ULP-Swap: A Unified Liquidity Pool for Financial Reuse of Gaming NFTs via Pool Rentals and ABP-Secured Swaps},
@@ -46,7 +46,7 @@ YinULPSwap2026:
       year={2026},
       publisher={Institute of Electrical and Electronics Engineers (IEEE)},
       doi={10.1109/TCSS.2026.3708983},
-      url={https://doi.org/10.1109/TCSS.2026.3708983}
+      url={https://ieeexplore.ieee.org/document/11609341/}
     }
 
 ChenyuOSDN2026:
