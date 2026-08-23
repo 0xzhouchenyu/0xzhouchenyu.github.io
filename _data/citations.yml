@@ -1,3 +1,27 @@
+DingSkill2Query2026:
+  text: "Ding, L., Guo, Z., Lu, B., Zhou, C., Zhou, Y., Zhang, W., Lin, J., and Ge, D. Skill2Query: Exploiting Skill Structure to Generate Pseudo-Queries for Agent Skill Retrieval. arXiv preprint arXiv:2608.16071, 2026."
+  bibtex: |
+    @misc{ding2026skill2queryexploitingskillstructure,
+      title={Skill2Query: Exploiting Skill Structure to Generate Pseudo-Queries for Agent Skill Retrieval},
+      author={Lihui Ding and Zihan Guo and Bingwei Lu and Chenyu Zhou and Yuanjian Zhou and Weinan Zhang and Jianghao Lin and Dongdong Ge},
+      year={2026},
+      eprint={2608.16071},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2608.16071}
+    }
+
+ZhouEvoSQL2026:
+  text: "Zhou, J., Wang, J., Zhou, C., Shi, C., Dong, M., and Wang, K. EvoSQL: Memory-Augmented Critic-Generator Co-Evolution for Text-to-SQL. In Findings of the Association for Computational Linguistics: EMNLP 2026, 2026."
+  bibtex: |
+    @inproceedings{zhou2026evosql,
+      title={{EvoSQL}: Memory-Augmented Critic-Generator Co-Evolution for Text-to-{SQL}},
+      author={Jiawei Zhou and Jianwei Wang and Chenyu Zhou and Chaojian Shi and Ming Dong and Kai Wang},
+      booktitle={Findings of the Association for Computational Linguistics: EMNLP 2026},
+      year={2026},
+      url={https://arxiv.org/abs/2607.20489}
+    }
+
 YinSIGMA2026:
   text: "Yin, H., Zhou, C., and Jin, Y. SIGMA: Semantic-Informed Grounded Multimodal Alignment for Image Restoration. In Proceedings of the 34th ACM International Conference on Multimedia (MM '26), 2026."
   bibtex: |
@@ -23,12 +47,12 @@ GuoGraphBU2026:
       url={https://arxiv.org/abs/2607.06532}
     }
 
-WuDynaKRAG2026:
-  text: "Wu, Y., Guo, X., Zhou, C., Huang, J., Zhang, X., Zhang, J., Yu, Z., Shi, Z., Lin, J., and Ge, D. DynaKRAG: A Unified Framework for Learnable Evidence Control in Multi-Hop Retrieval-Augmented Generation. arXiv preprint arXiv:2607.06507, 2026."
+ChenyuDynaKRAG2026:
+  text: "Zhou, C., Wu, Y., Guo, X., Huang, J., Zhang, X., Zhang, J., Yu, Z., Shi, Z., Lin, J., and Ge, D. DynaKRAG: A Unified Framework for Learnable Evidence Control in Multi-Hop Retrieval-Augmented Generation. arXiv preprint arXiv:2607.06507, 2026."
   bibtex: |
-    @misc{wu2026dynakragunifiedframeworklearnable,
+    @misc{zhou2026dynakragunifiedframeworklearnable,
       title={DynaKRAG: A Unified Framework for Learnable Evidence Control in Multi-Hop Retrieval-Augmented Generation},
-      author={Yaqi Wu and Xiaolei Guo and Chenyu Zhou and Jiaqi Huang and Xianfa Zhang and Junxu Zhang and Zhuo Yu and Zhubo Shi and Jianghao Lin and Dongdong Ge},
+      author={Chenyu Zhou and Yaqi Wu and Xiaolei Guo and Jiaqi Huang and Xianfa Zhang and Junxu Zhang and Zhuo Yu and Zhubo Shi and Jianghao Lin and Dongdong Ge},
       year={2026},
       eprint={2607.06507},
       archivePrefix={arXiv},
@@ -37,16 +61,56 @@ WuDynaKRAG2026:
     }
 
 YinULPSwap2026:
-  text: "Yin, H., Sun, J., Zhao, R., Zhou, C., and Jin, Y. ULP-Swap: A Unified Liquidity Pool for Financial Reuse of Gaming NFTs via Pool Rentals and ABP-Secured Swaps. IEEE Transactions on Computational Social Systems, 2026. DOI: 10.1109/TCSS.2026.3708983."
+  text: "Yin, H., Sun, J., Zhao, R., Zhou, C., and Jin, Y. ULP-Swap: A Unified Liquidity Pool for Financial Reuse of Gaming NFTs via Pool Rentals and ABP-Secured Swaps. IEEE Transactions on Computational Social Systems, pp. 1–16, 2026. doi:10.1109/TCSS.2026.3708983."
   bibtex: |
     @article{yin2026ulpswap,
-      title={ULP-Swap: A Unified Liquidity Pool for Financial Reuse of Gaming NFTs via Pool Rentals and ABP-Secured Swaps},
-      author={Haoran Yin and Jiaxiang Sun and Rong Zhao and Chenyu Zhou and Yuhua Jin},
+      title={{ULP}-Swap: A Unified Liquidity Pool for Financial Reuse of Gaming {NFTs} via Pool Rentals and {ABP}-Secured Swaps},
+      author={Yin, Haoran and Sun, Jiaxiang and Zhao, Rong and Zhou, Chenyu and Jin, Yuhua},
       journal={IEEE Transactions on Computational Social Systems},
+      pages={1--16},
       year={2026},
       publisher={Institute of Electrical and Electronics Engineers (IEEE)},
       doi={10.1109/TCSS.2026.3708983},
-      url={https://ieeexplore.ieee.org/document/11609341/}
+      url={https://doi.org/10.1109/TCSS.2026.3708983}
+    }
+
+YuLatentSkill2026:
+  text: "Yu, A., Zhou, C., Xu, T., Guo, Z., Shan, R., Fu, Z., Wang, J., Liu, W., Yu, Y., Zhang, W., and Lin, J. LatentSkill: From In-Context Textual Skills to In-Weight Latent Skills for LLM Agents. arXiv preprint arXiv:2606.06087, 2026."
+  bibtex: |
+    @misc{yu2026latentskillincontexttextualskills,
+      title={LatentSkill: From In-Context Textual Skills to In-Weight Latent Skills for LLM Agents},
+      author={Aofan Yu and Chenyu Zhou and Tianyi Xu and Zihan Guo and Rong Shan and Zhihui Fu and Jun Wang and Weiwen Liu and Yong Yu and Weinan Zhang and Jianghao Lin},
+      year={2026},
+      eprint={2606.06087},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.06087}
+    }
+
+ChenyuORSpace2026:
+  text: "Zhou, C., Lu, X., Zhao, J., Lin, J., Ge, D., and Ye, Y. OR-Space: A Full-Lifecycle Workspace Benchmark for Industrial Optimization Agents. arXiv preprint arXiv:2605.28158, 2026."
+  bibtex: |
+    @misc{zhou2026orspacefulllifecycleworkspacebenchmark,
+      title={OR-Space: A Full-Lifecycle Workspace Benchmark for Industrial Optimization Agents},
+      author={Chenyu Zhou and Xinyun Lu and Jiangyue Zhao and Jianghao Lin and Dongdong Ge and Yinyu Ye},
+      year={2026},
+      eprint={2605.28158},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2605.28158}
+    }
+
+WangSkillTTA2026:
+  text: "Wang, J., Zhou, C., Fu, Z., Wang, J., Liu, W., Zhang, W., and Lin, J. Skills on the Fly: Test-Time Adaptive Skill Synthesis for LLM Agents. arXiv preprint arXiv:2605.16986, 2026."
+  bibtex: |
+    @misc{wang2026skillsflytesttimeadaptive,
+      title={Skills on the Fly: Test-Time Adaptive Skill Synthesis for LLM Agents},
+      author={Jingxing Wang and Chenyu Zhou and Zhihui Fu and Jun Wang and Weiwen Liu and Weinan Zhang and Jianghao Lin},
+      year={2026},
+      eprint={2605.16986},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.16986}
     }
 
 ChenyuOSDN2026:
@@ -113,7 +177,7 @@ ChenyuAutoDP2025:
     }
 
 JunyuZZC2025:
-  text: "Zhang, J., Zhou, C., and Cai, W. Decentralization Funded by Centralization: Understanding Crypto Joint-Investment Network. In Proceedings of the 17th ACM Web Science Conference 2025 (WebSci '25), pages 86--95, 2025. DOI: 10.1145/3717867.3717897."
+  text: "Zhang, J., Zhou, C., and Cai, W. Decentralization Funded by Centralization: Understanding Crypto Joint-Investment Network. In Proceedings of the 17th ACM Web Science Conference 2025 (WebSci '25), pp. 86–95, 2025. doi:10.1145/3717867.3717897."
   bibtex: |
     @inproceedings{zhang2025decentralization,
       title={Decentralization Funded by Centralization: Understanding Crypto Joint-Investment Network},
@@ -122,13 +186,14 @@ JunyuZZC2025:
       series={WebSci '25},
       pages={86--95},
       year={2025},
+      month=may,
       publisher={ACM},
       doi={10.1145/3717867.3717897},
       url={https://doi.org/10.1145/3717867.3717897}
     }
 
 HongzhouCSCW2024:
-  text: "Chen, H., Zhou, C., El Saddik, A., and Cai, W. Decentralized Web3 Non-Fungible Token Community for Societal Prosperity? A Social Capital Perspective. Proceedings of the ACM on Human-Computer Interaction, 9(2):1--36, 2025. DOI: 10.1145/3710956."
+  text: "Chen, H., Zhou, C., El Saddik, A., and Cai, W. Decentralized Web3 Non-Fungible Token Community for Societal Prosperity? A Social Capital Perspective. Proceedings of the ACM on Human-Computer Interaction, 9(2), 1–36, 2025. doi:10.1145/3710956."
   bibtex: |
     @article{chen2025decentralized,
       title={Decentralized Web3 Non-Fungible Token Community for Societal Prosperity? A Social Capital Perspective},
@@ -138,37 +203,40 @@ HongzhouCSCW2024:
       number={2},
       pages={1--36},
       year={2025},
+      month=may,
       publisher={Association for Computing Machinery (ACM)},
       doi={10.1145/3710956},
       url={https://doi.org/10.1145/3710956}
     }
 
 ChenyuWWW2024:
-  text: "Zhou, C., Chen, H., Wu, H., Zhang, J., and Cai, W. ARTEMIS: Detecting Airdrop Hunters in NFT Markets with a Graph Learning System. In Proceedings of the ACM Web Conference 2024 (WWW '24), pages 1824--1834, 2024. DOI: 10.1145/3589334.3645597."
+  text: "Zhou, C., Chen, H., Wu, H., Zhang, J., and Cai, W. ARTEMIS: Detecting Airdrop Hunters in NFT Markets with a Graph Learning System. In Proceedings of the ACM Web Conference 2024 (WWW '24), pp. 1824–1834, 2024. doi:10.1145/3589334.3645597."
   bibtex: |
     @inproceedings{zhou2024artemis,
-      title={ARTEMIS: Detecting Airdrop Hunters in NFT Markets with a Graph Learning System},
+      title={{ARTEMIS}: Detecting Airdrop Hunters in {NFT} Markets with a Graph Learning System},
       author={Zhou, Chenyu and Chen, Hongzhou and Wu, Hao and Zhang, Junyu and Cai, Wei},
       booktitle={Proceedings of the ACM Web Conference 2024},
       series={WWW '24},
       pages={1824--1834},
       year={2024},
+      month=may,
       publisher={ACM},
       doi={10.1145/3589334.3645597},
       url={https://doi.org/10.1145/3589334.3645597}
     }
 
 ChenyuZCWSEC2023:
-  text: "Zhou, C., Chen, H., Wang, S., Sun, X., El Saddik, A., and Cai, W. Harnessing Web3 on Carbon Offset Market for Sustainability: Framework and A Case Study. IEEE Wireless Communications, 30(5):104--111, 2023. DOI: 10.1109/MWC.010.2300038."
+  text: "Zhou, C., Chen, H., Wang, S., Sun, X., El Saddik, A., and Cai, W. Harnessing Web3 on Carbon Offset Market for Sustainability: Framework and A Case Study. IEEE Wireless Communications, 30(5), 104–111, 2023. doi:10.1109/MWC.010.2300038."
   bibtex: |
     @article{zhou2023harnessing,
-      title={Harnessing Web3 on Carbon Offset Market for Sustainability: Framework and A Case Study},
+      title={Harnessing {Web3} on Carbon Offset Market for Sustainability: Framework and A Case Study},
       author={Zhou, Chenyu and Chen, Hongzhou and Wang, Shiman and Sun, Xinyao and El Saddik, Abdulmotaleb and Cai, Wei},
       journal={IEEE Wireless Communications},
       volume={30},
       number={5},
       pages={104--111},
       year={2023},
+      month=oct,
       publisher={Institute of Electrical and Electronics Engineers (IEEE)},
       doi={10.1109/MWC.010.2300038},
       url={https://doi.org/10.1109/MWC.010.2300038}
