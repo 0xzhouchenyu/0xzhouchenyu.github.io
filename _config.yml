@@ -124,6 +124,14 @@ google_analytics: G-ZN9ZBSRL1H
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
+# Public visitor globe shown on the homepage. Google Analytics remains enabled
+# separately for private, full-site analytics.
+mapmyvisitors:
+  enabled: true
+  widget_id: ax-Ezw6anegTRBU9JvBBk3jeXK8HURMCe5fI9QK_Jkc
+  profile_url: https://mapmyvisitors.com/web/1c02q
+  width: 100
+
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)

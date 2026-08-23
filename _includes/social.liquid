@@ -1,3 +1,17 @@
+{% if site.mapmyvisitors.enabled %}
+  <div
+    class="visitor-globe"
+    style="display: inline-block; width: {{ site.mapmyvisitors.width }}px; vertical-align: middle; margin-right: 10px; position: relative; z-index: 1;"
+    title="Public visitor map"
+  >
+    <script
+      type="text/javascript"
+      id="mmvst_globe"
+      src="https://mapmyvisitors.com/globe.js?d={{ site.mapmyvisitors.widget_id }}&amp;w={{ site.mapmyvisitors.width }}"
+    ></script>
+    <noscript><a href="{{ site.mapmyvisitors.profile_url }}">Public visitor map</a></noscript>
+  </div>
+{% endif %}
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="email" style="position: relative; z-index: 2;"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
