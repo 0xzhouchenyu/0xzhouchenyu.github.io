@@ -254,7 +254,11 @@
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
       {% if entry.huggingface %}
-        <a href="{{ entry.huggingface }}" class="btn btn-sm z-depth-0" role="button">🤗 Model</a>
+        {% if entry.huggingface contains 'huggingface.co/datasets/' %}
+          <a href="{{ entry.huggingface }}" class="btn btn-sm z-depth-0" role="button">🤗 Dataset</a>
+        {% else %}
+          <a href="{{ entry.huggingface }}" class="btn btn-sm z-depth-0" role="button">🤗 Model</a>
+        {% endif %}
       {% endif %}
       {% if entry.openreview %}
         <a href="{{ entry.openreview }}" class="btn btn-sm z-depth-0" role="button">OpenReview</a>
