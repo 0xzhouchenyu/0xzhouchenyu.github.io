@@ -151,41 +151,52 @@
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+    {% assign entrytype = '' %}
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% if entry.journal != blank %}
+        {% capture entrytype %}<em>{{ entry.journal | strip }}</em>{% endcapture %}
+      {% endif %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% if entry.booktitle != blank %}
+        {% capture entrytype %}<em>In {{ entry.booktitle | strip }}</em>{% endcapture %}
+      {% endif %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
-    {% else %}
-      {% capture entrytype %}{% endcapture %}
+      {% if entry.school != blank %}
+        {% capture entrytype %}<em>{{ entry.school | strip }}</em>{% endcapture %}
+      {% endif %}
     {% endif %}
-    {% assign entrymonth = '' %}
-    {% if entry.month %}
-      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
-    {% endif %}
-    {% assign entryyear = '' %}
-    {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
-    {% endif %}
-    {% if entry.location %}
-      {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
+    {% assign entrymonth = entry.month | default: '' | strip | capitalize %}
+    {% assign entryyear = entry.year | default: '' | append: '' | strip %}
+    {% if entry.location != blank %}
+      {% capture entrytype %}{{ entrytype }}{% if entrytype != '' %}, {% endif %}{{ entry.location | strip }}{% endcapture %}
     {% endif -%}
-    {% if entry.additional_info %}
-      {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+    {% if entry.additional_info != blank %}
+      {% capture entrytype %}{{ entrytype }} {{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endcapture %}
     {% endif %}
     {% capture hook_exists %}{% file_exists _includes/hook/bib.liquid %}{% endcapture %}
     {% if hook_exists == 'true' %}
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
-    <div class="periodical">
-      {{ periodical | strip }}
-    </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% comment %}Conference titles such as "EMNLP 2026" already include the publication year.{% endcomment %}
+    {% if entryyear != '' %}
+      {% assign year_pattern = '\b' | append: entryyear | append: '\b' %}
+      {% assign entrytype_without_year = entrytype_text | regex_replace: year_pattern, '' %}
+      {% if entrytype_without_year != entrytype_text %}
+        {% assign spaced_year = entryyear | prepend: ' ' %}
+        {% assign joined_year = entryyear | prepend: '&nbsp;' %}
+        {% assign entrytype = entrytype | replace: spaced_year, joined_year %}
+        {% assign entryyear = '' %}
+      {% endif %}
+    {% endif %}
+    {% capture entrydate %}{{ entrymonth }}{% if entrymonth != '' and entryyear != '' %} {% endif %}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype | strip }}{% if entrytype_text != '' and entrydate != '' %}, {% endif %}{% if entrydate != '' %}<span class="publication-date">{{ entrydate }}</span>{% endif %}{% endcapture %}
+    {% if periodical != blank %}
+      <div class="periodical">{{ periodical }}</div>
+    {% endif %}
+    {% if entry.note != blank %}
+      <div class="periodical">{{ entry.note | strip }}</div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     {% assign citation = site.data.citations[entry.key] %}

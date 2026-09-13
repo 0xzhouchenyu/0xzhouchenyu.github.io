@@ -690,11 +690,13 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
+    font-size: 1.5rem;
+    font-weight: 600;
     padding-top: 1rem;
     margin-top: 2rem;
-    text-align: right;
+    text-align: left;
   }
 
   ol.bibliography {
@@ -715,6 +717,10 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
+          padding: 0.35rem 0.5rem;
+          line-height: 1.35;
+          white-space: normal;
+          overflow-wrap: anywhere;
 
           a {
             color: white;
@@ -733,6 +739,16 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+      }
+
+      .periodical {
+        margin-top: 0.15rem;
+        margin-bottom: 0.35rem;
+        line-height: 1.5;
+
+        .publication-date {
+          white-space: nowrap;
+        }
       }
 
       .author {
