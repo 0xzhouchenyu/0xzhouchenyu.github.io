@@ -1,3 +1,16 @@
+JiangOPTZero2026:
+  text: "Jiang, X., Wu, Y., Zhou, C., Xu, M., Nuijten, W. P. M., and Zhang, Y. Learning to Optimize through Solver-Grounded Self-Play. arXiv preprint arXiv:2609.34205, 2026."
+  bibtex: |
+    @misc{jiang2026learningoptimizesolvergroundedselfplay,
+      title={Learning to Optimize through Solver-Grounded Self-Play},
+      author={Xia Jiang and Yaoxin Wu and Chenyu Zhou and Mengzhu Xu and Wim P.M. Nuijten and Yingqian Zhang},
+      year={2026},
+      eprint={2609.34205},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2609.34205}
+    }
+
 DingSkill2Query2026:
   text: "Ding, L., Guo, Z., Lu, B., Zhou, C., Zhou, Y., Zhang, W., Lin, J., and Ge, D. Skill2Query: Exploiting Skill Structure to Generate Pseudo-Queries for Agent Skill Retrieval. arXiv preprint arXiv:2608.16071, 2026."
   bibtex: |

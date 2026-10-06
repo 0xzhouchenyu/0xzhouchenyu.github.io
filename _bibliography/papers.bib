@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{JiangOPTZero2026,
+  abbr      = {Preprint},
+  title     = {Learning to Optimize through Solver-Grounded Self-Play},
+  author    = {Xia Jiang and Yaoxin Wu and Chenyu Zhou and Mengzhu Xu and Wim P.M. Nuijten and Yingqian Zhang},
+  journal   = {arXiv preprint arXiv:2609.34205},
+  arxiv     = {2609.34205},
+  abstract  = {Optimization modeling is central to many decision-making scenarios, but traditionally requires extensive domain expertise. While Large Language Models (LLMs) have shown promise in automating this process, current training paradigms mainly rely on human-annotated or teacher-generated datasets. This dependence introduces a Generalization Ceiling, where models overfit to narrow data distributions, and Capability Anchoring, where models' reasoning is bounded by annotator proficiency and teacher model capability. In response, we propose OPT-Zero, the first fully self-play training framework for optimization modeling that requires zero external training data. OPT-Zero employs a single LLM in a dual-role closed loop: a Proposer that synthesizes increasingly challenging optimization problems alongside their mathematical formulations and solving code, and a Solver that attempts to resolve the problems given only natural-language problem descriptions. Grounded in execution feedback from external optimization solvers, we alternately train both roles using reinforcement learning. This process fosters an auto-curriculum in which the Proposer and Solver co-evolve: generating harder valid problems by the Proposer seamlessly enhances the structural reasoning ability of the Solver. Extensive results indicate that with zero curated data, OPT-Zero matches state-of-the-art data-dependent methods while exhibiting substantially stronger generalizability, establishing self-play training as a highly scalable paradigm for advancing LLM reasoning in modeling and solving optimization problems.},
+  year      = {2026},
+  preview   = {fig_optzero.png},
+  selected  = {true}
+}
+
 @article{ZhuSOLID2026,
   abbr       = {Preprint},
   title      = {Beyond Verified Answers: Solver-Informed Self-Distillation for Bootstrapping Operations Research Language Models},
