@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi :wave: , This is Chenyu (周宸宇 in Chinese)!
 
-I am currently a second-year PhD student in Institute of Intelligent Computing, [Antai College of Economics and Management](https://www.acem.sjtu.edu.cn/) at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). I'm supervised by [Prof. Yinyu Ye](https://web.stanford.edu/~yyye/) and [Prof. Dongdong Ge](https://www.acem.sjtu.edu.cn/en/faculty/gedongdong.html).
+I am currently a third-year PhD student in Institute of Intelligent Computing, [Antai College of Economics and Management](https://www.acem.sjtu.edu.cn/) at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). I'm supervised by [Prof. Yinyu Ye](https://web.stanford.edu/~yyye/) and [Prof. Dongdong Ge](https://www.acem.sjtu.edu.cn/en/faculty/gedongdong.html).
 
 My research interests center on the application of large language models and optimization in Operations Research and FinTech.
 
