@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{XuHyM2026,
+  abbr      = {Preprint},
+  title     = {Hybrid Momentum Methods for Optimizing Deep Learning Models},
+  author    = {Haifeng Xu* and Yijin Ren* and Chenyu Zhou and Qi Deng and Dongdong Ge and Yinyu Ye},
+  journal   = {arXiv preprint arXiv:2610.27674},
+  arxiv     = {2610.27674},
+  abstract  = {Momentum is central to stochastic optimization in deep learning, including the training of large language models. Classical momentum methods typically rely on a fast exponential moving average (EMA) scheme, which discounts past gradients on a fixed timescale and may underweight older gradients that remain informative. This creates a trade-off between retaining long-term history and adapting to recent changes. We introduce Hybrid Momentum (HyM), which combines a linearly weighted average of past gradients with a geometrically discounted fast momentum. The former assigns weights proportional to the gradients' iteration indices and retains a growing span of history, while the latter emphasizes recent gradients. This hybrid construction is modular and can be combined with adaptive preconditioning and other update transformations. In particular, we propose HyMUON, which applies Newton--Schulz orthogonalization to the hybrid direction. Illustrative examples and controlled experiments demonstrate the benefits of combining gradient information across these two timescales. Across image classification, machine translation, and language modeling, HyM and HyMUON match or improve upon strong baselines. HyMUON improves over Muon on IWSLT14, and in both the 100k- and 600k-step GPT-2 124M OpenWebText regimes. For LLaMA-1.3B pretraining on C4, HyMUON achieves a final validation loss of 2.777, compared with 2.903 for Muon.},
+  year      = {2026},
+  preview   = {fig_hym.png},
+  selected  = {true}
+}
+
 @article{JiangOPTZero2026,
   abbr      = {Preprint},
   title     = {Learning to Optimize through Solver-Grounded Self-Play},
