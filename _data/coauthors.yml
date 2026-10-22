@@ -43,7 +43,7 @@
 
 "saddik":
   - firstname: ["Abdulmotaleb El"]
-    url: https://scholar.google.ca/citations?user=VcOjgngAAAAJ
+    url: https://www.site.uottawa.ca/~elsaddik/
 
 "xin":
   - firstname: ["Linwei"]
@@ -60,6 +60,12 @@
 "zhang":
   - firstname: ["Weinan"]
     url: https://wnzhang.net/
+  - firstname: ["Yingqian"]
+    url: https://research.tue.nl/en/persons/yingqian-zhang/
+  - firstname: ["Zhuosheng"]
+    url: https://bcmi.sjtu.edu.cn/home/zhangzs/
+  - firstname: ["Changwang"]
+    url: https://changwangzhang.github.io/
 
 "liu":
   - firstname: ["Weiwen"]
@@ -68,7 +74,47 @@
 "wang":
   - firstname: ["Zizhuo"]
     url: https://mypage.cuhk.edu.cn/academics/wangzizhuo/
+  - firstname: ["Kai"]
+    url: https://cs-kaiwang.github.io/
+  - firstname: ["Jianwei"]
+    url: https://jianwei-cse.github.io/
 
 "ye":
   - firstname: ["Yinyu", "Y."]
     url: https://profiles.stanford.edu/yinyu-ye
+
+"wu":
+  - firstname: ["Yaoxin"]
+    url: https://research.tue.nl/en/persons/yaoxin-wu/
+
+"song":
+  - firstname: ["Wen"]
+    url: https://songwenas12.github.io/
+
+"deng":
+  - firstname: ["Qi"]
+    url: https://www.acem.sjtu.edu.cn/en/faculty/dengqi.html
+
+"nuijten":
+  - firstname: ["Wim P.M.", "Wim P. M."]
+    url: https://research.tue.nl/en/persons/wim-pm-nuijten/
+
+"yao":
+  - firstname: ["Tao"]
+    url: https://www.acem.sjtu.edu.cn/en/faculty/yaotao.html
+
+"jin":
+  - firstname: ["Yuhua"]
+    url: https://sse.cuhk.edu.cn/en/faculty/jinyuhua
+
+"yu":
+  - firstname: ["Yong"]
+    url: https://www.cs.sjtu.edu.cn/en/jiaoshiml/yuyong.html
+
+"zheng":
+  - firstname: ["Zeyu"]
+    url: https://zheng80.github.io/
+
+"jiang":
+  - firstname: ["Ruoqing"]
+    url: https://www.sem.tsinghua.edu.cn/en/info/1215/9257.htm
