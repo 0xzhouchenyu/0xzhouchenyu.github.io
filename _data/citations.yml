@@ -36,7 +36,7 @@ ZhouEvoSQL2026:
     }
 
 YinSIGMA2026:
-  text: "Yin, H., Zhou, C., and Jin, Y. SIGMA: Semantic-Informed Grounded Multimodal Alignment for Image Restoration. In Proceedings of the 34th ACM International Conference on Multimedia (MM '26), 2026."
+  text: "Yin, H., Zhou, C., and Jin, Y. SIGMA: Semantic-Informed Grounded Multimodal Alignment for Image Restoration. In Proceedings of the 34th ACM International Conference on Multimedia (MM '26), pp. 13667–13676. ACM, 2026. doi:10.1145/3767308.3835009."
   bibtex: |
     @inproceedings{yin2026sigma,
       title={{SIGMA}: Semantic-Informed Grounded Multimodal Alignment for Image Restoration},
@@ -44,7 +44,10 @@ YinSIGMA2026:
       booktitle={Proceedings of the 34th ACM International Conference on Multimedia},
       series={MM '26},
       year={2026},
-      publisher={ACM}
+      pages={13667--13676},
+      publisher={ACM},
+      doi={10.1145/3767308.3835009},
+      url={https://doi.org/10.1145/3767308.3835009}
     }
 
 GuoGraphBU2026:
