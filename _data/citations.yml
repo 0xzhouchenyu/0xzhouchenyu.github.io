@@ -1,3 +1,68 @@
+ZhouProLand2026:
+  text: "Zhou, C., Zeng, Y., Deng, Q., Ge, D., and Ye, Y. ProLand: A New Infeasible Manifold Optimization Method for LoRA Fine-Tuning. arXiv preprint arXiv:2611.00236, 2026."
+  bibtex: |
+    @misc{zhou2026prolandnewinfeasiblemanifold,
+      title={ProLand: A New Infeasible Manifold Optimization Method for LoRA Fine-Tuning},
+      author={Chenyu Zhou and Yuxuan Zeng and Qi Deng and Dongdong Ge and Yinyu Ye},
+      year={2026},
+      eprint={2611.00236},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2611.00236}
+    }
+
+ZhangORSMT2026:
+  text: "Zhang, R., Zhou, C., Lin, J., Wu, Y., Ge, D., and Song, W. ORSMT: Unleashing the Potential of Satisfiability Modulo Theories for Semantic Verification and Repair in LLM-Based Optimization. arXiv preprint arXiv:2610.29145, 2026."
+  bibtex: |
+    @misc{zhang2026orsmtunleashingpotentialsatisfiability,
+      title={ORSMT: Unleashing the Potential of Satisfiability Modulo Theories for Semantic Verification and Repair in LLM-Based Optimization},
+      author={Rui Zhang and Chenyu Zhou and Jianghao Lin and Yaoxin Wu and Dongdong Ge and Wen Song},
+      year={2026},
+      eprint={2610.29145},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2610.29145}
+    }
+
+XuHyM2026:
+  text: "Xu, H., Ren, Y., Zhou, C., Deng, Q., Ge, D., and Ye, Y. Hybrid Momentum Methods for Optimizing Deep Learning Models. arXiv preprint arXiv:2610.27674, 2026."
+  bibtex: |
+    @misc{xu2026hybridmomentummethodsoptimizing,
+      title={Hybrid Momentum Methods for Optimizing Deep Learning Models},
+      author={Haifeng Xu and Yijin Ren and Chenyu Zhou and Qi Deng and Dongdong Ge and Yinyu Ye},
+      year={2026},
+      eprint={2610.27674},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2610.27674}
+    }
+
+ZhuSOLID2026:
+  text: "Zhu, R., Cao, M., Zhou, C., Lin, J., and Ge, D. Beyond Verified Answers: Solver-Informed Self-Distillation for Bootstrapping Operations Research Language Models. arXiv preprint arXiv:2609.09957, 2026."
+  bibtex: |
+    @misc{zhu2026beyondverifiedanswerssolverinformed,
+      title={Beyond Verified Answers: Solver-Informed Self-Distillation for Bootstrapping Operations Research Language Models},
+      author={Rui Zhu and Minglong Cao and Chenyu Zhou and Jianghao Lin and Dongdong Ge},
+      year={2026},
+      eprint={2609.09957},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2609.09957}
+    }
+
+GeInterOPT2026:
+  text: "Ge, S., Lin, Y., Zhou, C., Lin, J., Yao, T., and Ge, D. Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization. arXiv preprint arXiv:2609.05258, 2026."
+  bibtex: |
+    @misc{ge2026askbeforeoptimizedynamic,
+      title={Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization},
+      author={Sihan Ge and Yichen Lin and Chenyu Zhou and Jianghao Lin and Tao Yao and Dongdong Ge},
+      year={2026},
+      eprint={2609.05258},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2609.05258}
+    }
+
 JiangOPTZero2026:
   text: "Jiang, X., Wu, Y., Zhou, C., Xu, M., Nuijten, W. P. M., and Zhang, Y. Learning to Optimize through Solver-Grounded Self-Play. arXiv preprint arXiv:2609.34205, 2026."
   bibtex: |
